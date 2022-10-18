@@ -1,0 +1,41 @@
+* {
+margin:0
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aqua;
+  height: 7vh;
+}
+ul {
+  display: flex;
+}
+ul a {
+margin-right: 15px;
+}
+header a {
+margin-left: 15px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+#splash {
+  background-image: url('./images/why-you-could-be-drinking-more-than-you-think-1440x810.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+  height: 93vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#splash h2{
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+#splash button {
+padding: 15px;
+font-weight: bold;
+
+
+}
