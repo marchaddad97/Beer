@@ -1,6 +1,12 @@
 * {
 margin:0
 }
+body {
+    background-image: url('./images/why-you-could-be-drinking-more-than-you-think-1440x810.jpg');
+  background-attachment:fixed ;
+background-repeat: no-repeat;
+background-size: cover;
+}
 header {
   display: flex;
   align-items: center;
@@ -20,10 +26,7 @@ padding-top: 15px;
 padding-bottom: 15px;
 }
 #splash {
-  background-image: url('./images/why-you-could-be-drinking-more-than-you-think-1440x810.jpg');
-  background-attachment:fixed ;
-background-repeat: no-repeat;
-background-size: cover;
+
   height: 93vh;
 display: flex;
 flex-direction: column;
@@ -61,30 +64,51 @@ footer {
   overflow: hidden;
   font-weight: bolder;
 }
+iframe {
+  width: 90%;
+}
+#Location{
+  text-align: center;
 
+}
+
+#Location p {
+color: cyan;
+font-size: xx-large;
+}
 #Location h1 {
   margin-bottom: 15px;
   margin-top: 20px;
-  display: flex;
-  align-items: center;
-  color: rgb(228, 60, 18);
+  color: rgb(235, 30, 11);
   font-size: 40px;
 
 }
 
-#Team h1 {
+.team-heading {
   color: rgb(228, 60, 18);
 margin-bottom: 50px;
 margin-top: 50px;
+text-align: center;
+font-size: xx-large;
+text-align: center;
 
 }
 
-#Team h3 {
-
+#Team  {
+   color: rgb(43, 226, 92);
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 
-#Team {
- color: blueviolet;
+#Team div {
+  text-align: center;
+}
 
+
+#Beers h1 {
+  color: rgb(250, 62, 10);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
 
 }
