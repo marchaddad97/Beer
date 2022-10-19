@@ -105,10 +105,32 @@ grid-template-columns: 1fr 1fr;
 }
 
 
-#Beers h1 {
+#Beers {
   color: rgb(250, 62, 10);
   display: grid;
   grid-template-columns: 1fr 1fr;
+  text-align: center;
+  padding: 20px;
+
+}
+
+#About {
+  color: rgb(228, 60, 18);
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: xx-large;
+  text-align: center;
+
+}
+
+#About p {
+
+  color: rgb(18, 228, 70);
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: xx-large;
   text-align: center;
 
 }
